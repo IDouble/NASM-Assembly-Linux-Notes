@@ -1,2 +1,2 @@
-# NASM-Assembly-Linux-Notes
+# 🐧 NASM Assembly Linux Notes 🐧
 🐧 Assembly with Linux (Notes, Syscalls) 🐧

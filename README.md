@@ -9,12 +9,14 @@ xmlns:x="urn:schemas-microsoft-com:office:excel"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
 </head>
 
 <body link=blue vlink=purple>
 
-<table border=0 cellpadding=0 cellspacing=0 width=856 style='border-collapse:
- collapse;table-layout:fixed;width:643pt'>
+<table border=0 cellpadding=0 cellspacing=0 width=1022 style='border-collapse:
+ collapse;table-layout:fixed;width:767pt'>
  <col width=29 style='mso-width-source:userset;mso-width-alt:1024;width:22pt'>
  <col width=83 style='width:62pt'>
  <col width=42 style='mso-width-source:userset;mso-width-alt:1507;width:32pt'>
@@ -23,10 +25,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <col width=145 style='mso-width-source:userset;mso-width-alt:5148;width:109pt'>
  <col width=134 style='mso-width-source:userset;mso-width-alt:4778;width:101pt'>
  <col width=126 style='mso-width-source:userset;mso-width-alt:4465;width:94pt'>
+ <col width=83 span=2 style='width:62pt'>
  <tr height=19 style='mso-height-source:userset;height:14.4pt'>
   <td rowspan=2 height=38 class=xl65 width=29 style='height:28.8pt;width:22pt'>#</td>
   <td rowspan=2 class=xl65 width=83 style='width:62pt'>Name</td>
   <td colspan=6 class=xl65 width=744 style='width:559pt'>Registers</td>
+  <td width=83 style='width:62pt'></td>
+  <td width=83 style='width:62pt'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl65 width=42 style='height:14.4pt;width:32pt'>eax</td>
@@ -35,6 +40,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl65 width=145 style='width:109pt'>edx</td>
   <td class=xl65 width=134 style='width:101pt'>esi</td>
   <td class=xl65 width=126 style='width:94pt'>edi</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -48,6 +54,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -61,6 +68,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -69,13 +77,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/fork.2.html"
   target="_blank">sys_fork</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x02</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct pt_regs *</td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -89,6 +96,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t count</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -102,6 +110,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t count</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -115,6 +124,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int mode</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -128,6 +138,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -141,6 +152,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int options</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -154,6 +166,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -167,6 +180,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -180,6 +194,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -191,10 +206,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=139 style='width:104pt'>char __user *</td>
   <td class=xl66 width=158 style='width:119pt'>char __user *__user *</td>
   <td class=xl66 width=145 style='width:109pt'>char __user *__user *</td>
-  <td class=xl67 width=134 style='width:101pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct pt_regs *</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -208,6 +222,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -221,6 +236,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -234,6 +250,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned dev</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -247,6 +264,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -260,6 +278,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_gid_t group</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -271,21 +290,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>18</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/stat.2.html"
   target="_blank">sys_stat</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x12</td>
   <td class=xl66 width=139 style='width:104pt'>char __user *filename</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/arm/include/asm/stat.h?v=2.6.35#L4"
-  target="_blank">struct __old_kernel_stat __user *statbuf</a></td>
+  <td>struct __old_kernel_stat _<span style='display:none'>_user *statbuf</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -299,6 +318,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned int origin</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -312,6 +332,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -325,6 +346,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>char __user *type</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long flags</td>
   <td class=xl66 width=126 style='width:94pt'>void __user *data</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -338,6 +360,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -351,6 +374,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -364,6 +388,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -377,6 +402,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -390,6 +416,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>long addr</td>
   <td class=xl66 width=134 style='width:101pt'>long data</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -403,21 +430,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>28</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/fstat.2.html"
   target="_blank">sys_fstat</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x1c</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int fd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/arm/include/asm/stat.h?v=2.6.35#L4"
-  target="_blank">struct __old_kernel_stat __user *statbuf</a></td>
+  <td>struct __old_kernel_stat _<span style='display:none'>_user *statbuf</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -431,21 +458,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>30</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/utime.2.html"
   target="_blank">sys_utime</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x1e</td>
   <td class=xl66 width=139 style='width:104pt'>char __user *filename</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/utime.h?v=2.6.35#L6"
-  target="_blank">struct utimbuf __user *times</a></td>
+  <td>struct utimbuf __user *tim<span style='display:none'>es</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -457,6 +484,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -468,6 +496,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -481,6 +510,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -494,6 +524,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -505,6 +536,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -518,6 +550,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -531,6 +564,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -544,6 +578,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -557,6 +592,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -570,6 +606,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -583,6 +620,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -596,6 +634,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -609,6 +648,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -620,6 +660,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -633,6 +674,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -646,6 +688,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -659,6 +702,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -672,6 +716,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -685,6 +730,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -698,6 +744,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -711,6 +758,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -724,6 +772,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -735,6 +784,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -748,6 +798,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long arg</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -761,6 +812,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long arg</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -772,6 +824,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -785,6 +838,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -796,6 +850,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -804,13 +859,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/olduname.2.html"
   target="_blank">sys_olduname</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x3b</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/utsname.h?v=2.6.35#L6"
-  target="_blank">struct oldold_utsname __user *</a></td>
+  <td>struct oldold_utsname <span style='display:none'>__user *</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -824,6 +878,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -837,6 +892,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -846,12 +902,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_ustat</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x3e</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned dev</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/types.h?v=2.6.35#L200"
-  target="_blank">struct ustat __user *ubuf</a></td>
+  <td>struct ustat __user *ubuf</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -865,6 +920,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -878,6 +934,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -891,6 +948,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -904,6 +962,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -913,14 +972,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_sigaction</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x43</td>
   <td class=xl66 width=139 style='width:104pt'>int sig</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/arm/include/asm/signal.h?v=2.6.35#L117"
-  target="_blank">const struct old_sigaction __user *act</a></td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/arch/arm/include/asm/signal.h?v=2.6.35#L117"
-  target="_blank">struct old_sigaction __user *oact</a></td>
+  <td>const struct old_sigaction <span style='display:none'>__user *act</span></td>
+  <td>struct old_sigaction __u<span style='display:none'>ser *oact</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -934,6 +990,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -947,6 +1004,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -960,6 +1018,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -973,6 +1032,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -986,6 +1046,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_sigset_t mask</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -999,6 +1060,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1012,6 +1074,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1021,12 +1084,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_setrlimit</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x4b</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int resource</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/resource.h?v=2.6.35#L41"
-  target="_blank">struct rlimit __user *rlim</a></td>
+  <td>struct rlimit __user *rlim</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1036,12 +1098,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_old_getrlimit</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x4c</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int resource</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/resource.h?v=2.6.35#L41"
-  target="_blank">struct rlimit __user *rlim</a></td>
+  <td>struct rlimit __user *rlim</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1051,12 +1112,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_getrusage</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x4d</td>
   <td class=xl66 width=139 style='width:104pt'>int who</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/resource.h?v=2.6.35#L22"
-  target="_blank">struct rusage __user *ru</a></td>
+  <td>struct rusage __user *ru</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1065,13 +1125,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/gettimeofday.2.html"
   target="_blank">sys_gettimeofday</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x4e</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L20"
-  target="_blank">struct timeval __user *tv</a></td>
+  <td>struct timeval __user *t<span style='display:none'>v</span></td>
   <td class=xl66 width=158 style='width:119pt'>struct timezone __user *tz</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1080,13 +1139,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/settimeofday.2.html"
   target="_blank">sys_settimeofday</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x4f</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L20"
-  target="_blank">struct timeval __user *tv</a></td>
+  <td>struct timeval __user *t<span style='display:none'>v</span></td>
   <td class=xl66 width=158 style='width:119pt'>struct timezone __user *tz</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1100,6 +1158,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1113,6 +1172,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1121,13 +1181,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/old_select.2.html"
   target="_blank">sys_old_select</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x52</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/fs/select.c?v=2.6.35#L695"
-  target="_blank">struct sel_arg_struct __user *arg</a></td>
+  <td>struct sel_arg_struct __<span style='display:none'>user *arg</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1141,21 +1200,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>84</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/lstat.2.html"
   target="_blank">sys_lstat</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x54</td>
   <td class=xl66 width=139 style='width:104pt'>char __user *filename</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/arm/include/asm/stat.h?v=2.6.35#L4"
-  target="_blank">struct __old_kernel_stat __user *statbuf</a></td>
+  <td>struct __old_kernel_stat _<span style='display:none'>_user *statbuf</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1169,6 +1228,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int bufsiz</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1182,6 +1242,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1195,6 +1256,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1208,6 +1270,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned int cmd</td>
   <td class=xl66 width=134 style='width:101pt'>void __user *arg</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1217,27 +1280,25 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_old_readdir</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x59</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/fs/readdir.c?v=2.6.35#L61"
-  target="_blank">struct old_linux_dirent __user *</a></td>
+  <td>struct old_linux_dirent __u<span style='display:none'>ser *</span></td>
   <td class=xl66 width=145 style='width:109pt'>unsigned int</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=58 style='height:43.2pt'>
-  <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
+ <tr height=38 style='height:28.8pt'>
+  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
   width:22pt'>90</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/old_mmap.2.html"
   target="_blank">sys_old_mmap</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x5a</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/mm/mmap.c?v=2.6.35#L1132"
-  target="_blank">struct mmap_arg_struct __user *arg</a></td>
+  <td>struct mmap_arg_struc<span style='display:none'>t __user *arg</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1251,6 +1312,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1264,6 +1326,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1277,6 +1340,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1290,6 +1354,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1303,6 +1368,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_gid_t group</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1316,6 +1382,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1329,6 +1396,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int niceval</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -1340,6 +1408,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1349,12 +1418,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_statfs</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x63</td>
   <td class=xl66 width=139 style='width:104pt'>const char __user * path</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/mips/include/asm/statfs.h?v=2.6.35#L22"
-  target="_blank">struct statfs __user *buf</a></td>
+  <td>struct statfs __user *buf</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1364,12 +1432,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_fstatfs</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x64</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int fd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/mips/include/asm/statfs.h?v=2.6.35#L22"
-  target="_blank">struct statfs __user *buf</a></td>
+  <td>struct statfs __user *buf</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1383,6 +1450,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1396,6 +1464,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1409,6 +1478,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int len</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1418,14 +1488,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_setitimer</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x68</td>
   <td class=xl66 width=139 style='width:104pt'>int which</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L263"
-  target="_blank">struct itimerval __user *value</a></td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L263"
-  target="_blank">struct itimerval __user *ovalue</a></td>
+  <td>struct itimerval __user *val<span style='display:none'>ue</span></td>
+  <td>struct itimerval __user *<span style='display:none'>ovalue</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1435,42 +1502,39 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_getitimer</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x69</td>
   <td class=xl66 width=139 style='width:104pt'>int which</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L263"
-  target="_blank">struct itimerval __user *value</a></td>
+  <td>struct itimerval __user *val<span style='display:none'>ue</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>106</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/newstat.2.html"
   target="_blank">sys_newstat</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x6a</td>
   <td class=xl66 width=139 style='width:104pt'>char __user *filename</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/stat.h?v=2.6.35#L4"
-  target="_blank">struct stat __user *statbuf</a></td>
+  <td>struct stat __user *statbuf</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>107</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/newlstat.2.html"
   target="_blank">sys_newlstat</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x6b</td>
   <td class=xl66 width=139 style='width:104pt'>char __user *filename</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/stat.h?v=2.6.35#L4"
-  target="_blank">struct stat __user *statbuf</a></td>
+  <td>struct stat __user *statbuf</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1480,27 +1544,25 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_newfstat</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x6c</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int fd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/stat.h?v=2.6.35#L4"
-  target="_blank">struct stat __user *statbuf</a></td>
+  <td>struct stat __user *statbuf</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>109</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/uname.2.html"
   target="_blank">sys_uname</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x6d</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/utsname.h?v=2.6.35#L16"
-  target="_blank">struct old_utsname __user *</a></td>
+  <td>struct old_utsname __u<span style='display:none'>ser *</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1510,12 +1572,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_iopl</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x6e</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct pt_regs *</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1529,6 +1590,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -1540,26 +1602,24 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>113</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/vm86old.2.html"
   target="_blank">sys_vm86old</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x71</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/arch/x86/include/asm/vm86.h?v=2.6.35#L96"
-  target="_blank">struct vm86_struct __user *</a></td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct vm86_struct __u<span style='display:none'>ser *</span></td>
+  <td>struct pt_regs *</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>114</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/wait4.2.html"
@@ -1568,10 +1628,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=139 style='width:104pt'>pid_t pid</td>
   <td class=xl66 width=158 style='width:119pt'>int __user *stat_addr</td>
   <td class=xl66 width=145 style='width:109pt'>int options</td>
-  <td class=xl67 width=134 style='width:101pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/resource.h?v=2.6.35#L22"
-  target="_blank">struct rusage __user *ru</a></td>
+  <td>struct rusage __user *r<span style='display:none'>u</span></td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1585,6 +1644,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1598,6 +1658,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1611,6 +1672,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1624,6 +1686,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1632,13 +1695,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/sigreturn.2.html"
   target="_blank">sys_sigreturn</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x77</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *regs</a></td>
+  <td>struct pt_regs *regs</td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1651,9 +1713,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=158 style='width:119pt'>unsigned long</td>
   <td class=xl66 width=145 style='width:109pt'>unsigned long</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long</td>
-  <td class=xl67 width=126 style='width:94pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct pt_regs *</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1667,6 +1728,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1675,13 +1737,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/newuname.2.html"
   target="_blank">sys_newuname</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x7a</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/utsname.h?v=2.6.35#L24"
-  target="_blank">struct new_utsname __user *name</a></td>
+  <td>struct new_utsname __<span style='display:none'>user *name</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1695,21 +1756,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>124</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/adjtimex.2.html"
   target="_blank">sys_adjtimex</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x7c</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/timex.h?v=2.6.35#L64"
-  target="_blank">struct timex __user *txc_p</a></td>
+  <td>struct timex __user *tx<span style='display:none'>c_p</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1723,6 +1784,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long prot</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1736,6 +1798,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_sigset_t __user *oset</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -1747,6 +1810,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1760,6 +1824,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>const char __user *uargs</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1773,6 +1838,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -1784,6 +1850,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1797,6 +1864,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>qid_t id</td>
   <td class=xl66 width=134 style='width:101pt'>void __user *addr</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1810,6 +1878,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1823,6 +1892,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1836,6 +1906,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1849,6 +1920,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long arg2</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1862,6 +1934,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -1873,6 +1946,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1886,6 +1960,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1899,6 +1974,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1912,24 +1988,24 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long offset_low</td>
   <td class=xl66 width=134 style='width:101pt'>loff_t __user *result</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned int origin</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>141</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/getdents.2.html"
   target="_blank">sys_getdents</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x8d</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int fd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/fs/readdir.c?v=2.6.35#L135"
-  target="_blank">struct linux_dirent __user *dirent</a></td>
+  <td>struct linux_dirent __user <span style='display:none'>*dirent</span></td>
   <td class=xl66 width=145 style='width:109pt'>unsigned int count</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>142</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/select.2.html"
@@ -1939,9 +2015,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=158 style='width:119pt'>fd_set __user *inp</td>
   <td class=xl66 width=145 style='width:109pt'>fd_set __user *outp</td>
   <td class=xl66 width=134 style='width:101pt'>fd_set __user *exp</td>
-  <td class=xl67 width=126 style='width:94pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L20"
-  target="_blank">struct timeval __user *tvp</a></td>
+  <td colspan=2 style='mso-ignore:colspan'>struct timeval __user *tvp</td>
+  <td></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1955,6 +2030,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -1968,6 +2044,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int flags</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1981,6 +2058,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long vlen</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -1994,6 +2072,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long vlen</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2007,6 +2086,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2020,21 +2100,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>149</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/sysctl.2.html"
   target="_blank">sys_sysctl</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x95</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/sysctl.h?v=2.6.35#L36"
-  target="_blank">struct __sysctl_args __user *args</a></td>
+  <td>struct __sysctl_args __<span style='display:none'>user *args</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2048,6 +2128,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2061,6 +2142,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2074,6 +2156,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2087,6 +2170,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2096,12 +2180,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_sched_setparam</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x9a</td>
   <td class=xl66 width=139 style='width:104pt'>pid_t pid</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/sched.h?v=2.6.35#L46"
-  target="_blank">struct sched_param __user *param</a></td>
+  <td>struct sched_param __user<span style='display:none'> *param</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2111,12 +2194,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_sched_getparam</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x9b</td>
   <td class=xl66 width=139 style='width:104pt'>pid_t pid</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/sched.h?v=2.6.35#L46"
-  target="_blank">struct sched_param __user *param</a></td>
+  <td>struct sched_param __user<span style='display:none'> *param</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2127,11 +2209,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x9c</td>
   <td class=xl66 width=139 style='width:104pt'>pid_t pid</td>
   <td class=xl66 width=158 style='width:119pt'>int policy</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/sched.h?v=2.6.35#L46"
-  target="_blank">struct sched_param __user *param</a></td>
+  <td>struct sched_param __u<span style='display:none'>ser *param</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2145,6 +2226,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2158,6 +2240,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -2171,6 +2254,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -2184,6 +2268,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -2193,12 +2278,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_sched_rr_get_interval</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xa1</td>
   <td class=xl66 width=139 style='width:104pt'>pid_t pid</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *interval</a></td>
+  <td>struct timespec __user *int<span style='display:none'>erval</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2207,15 +2291,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/nanosleep.2.html"
   target="_blank">sys_nanosleep</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xa2</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *rqtp</a></td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *rmtp</a></td>
+  <td>struct timespec __user <span style='display:none'>*rqtp</span></td>
+  <td>struct timespec __user *r<span style='display:none'>mtp</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2229,6 +2310,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long new_len</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long flags</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned long new_addr</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2242,6 +2324,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_uid_t suid</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2255,6 +2338,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_uid_t __user *suid</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2265,11 +2349,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0xa6</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned long</td>
   <td class=xl66 width=158 style='width:119pt'>unsigned long</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct pt_regs *</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -2281,21 +2364,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>168</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/poll.2.html"
   target="_blank">sys_poll</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xa8</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/asm-generic/poll.h?v=2.6.35#L31"
-  target="_blank">struct pollfd __user *ufds</a></td>
+  <td>struct pollfd __user *uf<span style='display:none'>ds</span></td>
   <td class=xl66 width=158 style='width:119pt'>unsigned int nfds</td>
   <td class=xl66 width=145 style='width:109pt'>long timeout</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2305,12 +2388,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_nfsservctl</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xa9</td>
   <td class=xl66 width=139 style='width:104pt'>int cmd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/nfsd/syscall.h?v=2.6.35#L77"
-  target="_blank">struct nfsctl_arg __user *arg</a></td>
+  <td>struct nfsctl_arg __user *a<span style='display:none'>rg</span></td>
   <td class=xl66 width=145 style='width:109pt'>void __user *res</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2324,6 +2406,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_gid_t sgid</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2337,6 +2420,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_gid_t __user *sgid</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2350,6 +2434,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long arg3</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long arg4</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned long arg5</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2358,13 +2443,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/rt_sigreturn.2.html"
   target="_blank">sys_rt_sigreturn</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xad</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct pt_regs *</td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2374,14 +2458,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_rt_sigaction</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xae</td>
   <td class=xl66 width=139 style='width:104pt'>int sig</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/signal.h?v=2.6.35#L123"
-  target="_blank">const struct sigaction __user *act</a></td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/signal.h?v=2.6.35#L123"
-  target="_blank">struct sigaction __user *oact</a></td>
+  <td>const struct sigaction __us<span style='display:none'>er *act</span></td>
+  <td>struct sigaction __user *<span style='display:none'>oact</span></td>
   <td class=xl66 width=134 style='width:101pt'>size_t sigsetsize</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2395,6 +2476,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>sigset_t __user *oset</td>
   <td class=xl66 width=134 style='width:101pt'>size_t sigsetsize</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2408,6 +2490,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2418,11 +2501,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0xb1</td>
   <td class=xl66 width=139 style='width:104pt'>const sigset_t __user *uthese</td>
   <td class=xl66 width=158 style='width:119pt'>siginfo_t __user *uinfo</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">const struct timespec __user *uts</a></td>
+  <td>const struct timespec __<span style='display:none'>user *uts</span></td>
   <td class=xl66 width=134 style='width:101pt'>size_t sigsetsize</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2436,6 +2518,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>siginfo_t __user *uinfo</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2449,6 +2532,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2462,6 +2546,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t count</td>
   <td class=xl66 width=134 style='width:101pt'>loff_t pos</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2475,6 +2560,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t count</td>
   <td class=xl66 width=134 style='width:101pt'>loff_t pos</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2488,6 +2574,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>old_gid_t group</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2501,6 +2588,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2514,6 +2602,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2527,6 +2616,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2537,11 +2627,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0xba</td>
   <td class=xl66 width=139 style='width:104pt'>const stack_t __user *</td>
   <td class=xl66 width=158 style='width:119pt'>stack_t __user *</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct pt_regs *</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2555,6 +2644,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>off_t __user *offset</td>
   <td class=xl66 width=134 style='width:101pt'>size_t count</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -2566,6 +2656,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -2577,6 +2668,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2585,13 +2677,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/vfork.2.html"
   target="_blank">sys_vfork</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xbe</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/ptrace.h?v=2.6.35#L19"
-  target="_blank">struct pt_regs *</a></td>
+  <td>struct pt_regs *</td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2601,12 +2692,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_getrlimit</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xbf</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int resource</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/resource.h?v=2.6.35#L41"
-  target="_blank">struct rlimit __user *rlim</a></td>
+  <td>struct rlimit __user *rlim</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2620,6 +2710,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2633,6 +2724,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2646,51 +2738,49 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>195</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/stat64.2.html"
   target="_blank">sys_stat64</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xc3</td>
   <td class=xl66 width=139 style='width:104pt'>char __user *filename</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/stat.h?v=2.6.35#L25"
-  target="_blank">struct stat64 __user *statbuf</a></td>
+  <td>struct stat64 __user *statb<span style='display:none'>uf</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>196</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/lstat64.2.html"
   target="_blank">sys_lstat64</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xc4</td>
   <td class=xl66 width=139 style='width:104pt'>char __user *filename</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/stat.h?v=2.6.35#L25"
-  target="_blank">struct stat64 __user *statbuf</a></td>
+  <td>struct stat64 __user *statb<span style='display:none'>uf</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>197</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/fstat64.2.html"
   target="_blank">sys_fstat64</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xc5</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned long fd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/stat.h?v=2.6.35#L25"
-  target="_blank">struct stat64 __user *statbuf</a></td>
+  <td>struct stat64 __user *statb<span style='display:none'>uf</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2704,6 +2794,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>gid_t group</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2717,6 +2808,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2730,6 +2822,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2743,6 +2836,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2756,6 +2850,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2769,6 +2864,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2782,6 +2878,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2795,6 +2892,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2808,6 +2906,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2821,6 +2920,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>gid_t group</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2834,6 +2934,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>uid_t suid</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2847,6 +2948,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>uid_t __user *suid</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2860,6 +2962,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>gid_t sgid</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2873,6 +2976,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>gid_t __user *sgid</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2886,6 +2990,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>gid_t group</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2899,6 +3004,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2912,6 +3018,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2925,6 +3032,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2938,6 +3046,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2951,6 +3060,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2964,6 +3074,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned char __user * vec</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -2977,6 +3088,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int behavior</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -2986,12 +3098,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_getdents64</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xdc</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int fd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/dirent.h?v=2.6.35#L4"
-  target="_blank">struct linux_dirent64 __user *dirent</a></td>
+  <td>struct linux_dirent64 __use<span style='display:none'>r *dirent</span></td>
   <td class=xl66 width=145 style='width:109pt'>unsigned int count</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3005,6 +3116,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long arg</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -3016,6 +3128,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -3027,6 +3140,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3040,6 +3154,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3053,6 +3168,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t count</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3066,6 +3182,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>const void __user *value</td>
   <td class=xl66 width=134 style='width:101pt'>size_t size</td>
   <td class=xl66 width=126 style='width:94pt'>int flags</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3079,6 +3196,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>const void __user *value</td>
   <td class=xl66 width=134 style='width:101pt'>size_t size</td>
   <td class=xl66 width=126 style='width:94pt'>int flags</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3092,6 +3210,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>const void __user *value</td>
   <td class=xl66 width=134 style='width:101pt'>size_t size</td>
   <td class=xl66 width=126 style='width:94pt'>int flags</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3105,6 +3224,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>void __user *value</td>
   <td class=xl66 width=134 style='width:101pt'>size_t size</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3118,6 +3238,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>void __user *value</td>
   <td class=xl66 width=134 style='width:101pt'>size_t size</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3131,6 +3252,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>void __user *value</td>
   <td class=xl66 width=134 style='width:101pt'>size_t size</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3144,6 +3266,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t size</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3157,6 +3280,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t size</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3170,6 +3294,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t size</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3183,6 +3308,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3196,6 +3322,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3209,6 +3336,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3222,6 +3350,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3235,6 +3364,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>loff_t __user *offset</td>
   <td class=xl66 width=134 style='width:101pt'>size_t count</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3248,6 +3378,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3262,6 +3393,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   *user_mask_ptr</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3276,6 +3408,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   *user_mask_ptr</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3284,13 +3417,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/set_thread_area.2.html"
   target="_blank">sys_set_thread_area</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xf3</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/arch/x86/include/asm/ldt.h?v=2.6.35#L20"
-  target="_blank">struct user_desc __user *</a></td>
+  <td>struct user_desc __user<span style='display:none'> *</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3299,13 +3431,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/get_thread_area.2.html"
   target="_blank">sys_get_thread_area</a></td>
   <td class=xl66 width=42 style='width:32pt'>0xf4</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/arch/x86/include/asm/ldt.h?v=2.6.35#L20"
-  target="_blank">struct user_desc __user *</a></td>
+  <td>struct user_desc __user<span style='display:none'> *</span></td>
   <td class=xl66 width=158 style='width:119pt'>-</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3319,6 +3450,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3332,6 +3464,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3343,12 +3476,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=139 style='width:104pt'>aio_context_t ctx_id</td>
   <td class=xl66 width=158 style='width:119pt'>long min_nr</td>
   <td class=xl66 width=145 style='width:109pt'>long nr</td>
-  <td class=xl67 width=134 style='width:101pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/aio_abi.h?v=2.6.35#L58"
-  target="_blank">struct io_event __user *events</a></td>
-  <td class=xl67 width=126 style='width:94pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *timeout</a></td>
+  <td>struct io_event __user <span style='display:none'>*events</span></td>
+  <td colspan=2 style='mso-ignore:colspan'>struct timespec __user *timeout</td>
+  <td></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3362,6 +3492,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>struct iocb __user * __user *</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3372,11 +3503,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0xf9</td>
   <td class=xl66 width=139 style='width:104pt'>aio_context_t ctx_id</td>
   <td class=xl66 width=158 style='width:119pt'>struct iocb __user *iocb</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/aio_abi.h?v=2.6.35#L58"
-  target="_blank">struct io_event __user *result</a></td>
+  <td>struct io_event __user *<span style='display:none'>result</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3390,6 +3520,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t len</td>
   <td class=xl66 width=134 style='width:101pt'>int advice</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -3401,6 +3532,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3414,6 +3546,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3427,6 +3560,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t len</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3440,9 +3574,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>255</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/epoll_ctl.2.html"
@@ -3451,10 +3586,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=139 style='width:104pt'>int epfd</td>
   <td class=xl66 width=158 style='width:119pt'>int op</td>
   <td class=xl66 width=145 style='width:109pt'>int fd</td>
-  <td class=xl67 width=134 style='width:101pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/eventpoll.h?v=2.6.35#L47"
-  target="_blank">struct epoll_event __user *event</a></td>
+  <td>struct epoll_event __u<span style='display:none'>ser *event</span></td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3464,12 +3598,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_epoll_wait</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x100</td>
   <td class=xl66 width=139 style='width:104pt'>int epfd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/eventpoll.h?v=2.6.35#L47"
-  target="_blank">struct epoll_event __user *events</a></td>
+  <td>struct epoll_event __user <span style='display:none'>*events</span></td>
   <td class=xl66 width=145 style='width:109pt'>int maxevents</td>
   <td class=xl66 width=134 style='width:101pt'>int timeout</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3483,6 +3616,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long prot</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long pgoff</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned long flags</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3496,6 +3630,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3505,13 +3640,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_timer_create</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x103</td>
   <td class=xl66 width=139 style='width:104pt'>clockid_t which_clock</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/asm-generic/siginfo.h?v=2.6.35#L259"
-  target="_blank">struct sigevent __user *timer_event_spec</a></td>
+  <td>struct sigevent __user *tim<span style='display:none'>er_event_spec</span></td>
   <td class=xl66 width=145 style='width:109pt'>timer_t __user *
   created_timer_id</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3522,13 +3656,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x104</td>
   <td class=xl66 width=139 style='width:104pt'>timer_t timer_id</td>
   <td class=xl66 width=158 style='width:119pt'>int flags</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L258"
-  target="_blank">const struct itimerspec __user *new_setting</a></td>
-  <td class=xl67 width=134 style='width:101pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L258"
-  target="_blank">struct itimerspec __user *old_setting</a></td>
+  <td>const struct itimerspec _<span style='display:none'>_user *new_setting</span></td>
+  <td>struct itimerspec __us<span style='display:none'>er *old_setting</span></td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3538,12 +3669,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_timer_gettime</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x105</td>
   <td class=xl66 width=139 style='width:104pt'>timer_t timer_id</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L258"
-  target="_blank">struct itimerspec __user *setting</a></td>
+  <td>struct itimerspec __user *s<span style='display:none'>etting</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3557,6 +3687,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3570,6 +3701,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3579,12 +3711,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_clock_settime</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x108</td>
   <td class=xl66 width=139 style='width:104pt'>clockid_t which_clock</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">const struct timespec __user *tp</a></td>
+  <td>const struct timespec __us<span style='display:none'>er *tp</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3594,12 +3725,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_clock_gettime</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x109</td>
   <td class=xl66 width=139 style='width:104pt'>clockid_t which_clock</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *tp</a></td>
+  <td>struct timespec __user *tp</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3609,12 +3739,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_clock_getres</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x10a</td>
   <td class=xl66 width=139 style='width:104pt'>clockid_t which_clock</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *tp</a></td>
+  <td>struct timespec __user *tp</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3625,13 +3754,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x10b</td>
   <td class=xl66 width=139 style='width:104pt'>clockid_t which_clock</td>
   <td class=xl66 width=158 style='width:119pt'>int flags</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">const struct timespec __user *rqtp</a></td>
-  <td class=xl67 width=134 style='width:101pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *rmtp</a></td>
+  <td>const struct timespec __<span style='display:none'>user *rqtp</span></td>
+  <td>struct timespec __user<span style='display:none'> *rmtp</span></td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3642,11 +3768,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x10c</td>
   <td class=xl66 width=139 style='width:104pt'>const char __user *path</td>
   <td class=xl66 width=158 style='width:119pt'>size_t sz</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/arch/mips/include/asm/statfs.h?v=2.6.35#L63"
-  target="_blank">struct statfs64 __user *buf</a></td>
+  <td>struct statfs64 __user *b<span style='display:none'>uf</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3657,11 +3782,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x10d</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned int fd</td>
   <td class=xl66 width=158 style='width:119pt'>size_t sz</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/arch/mips/include/asm/statfs.h?v=2.6.35#L63"
-  target="_blank">struct statfs64 __user *buf</a></td>
+  <td>struct statfs64 __user *b<span style='display:none'>uf</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3675,21 +3799,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int sig</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>271</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/utimes.2.html"
   target="_blank">sys_utimes</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x10f</td>
   <td class=xl66 width=139 style='width:104pt'>char __user *filename</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L20"
-  target="_blank">struct timeval __user *utimes</a></td>
+  <td>struct timeval __user *uti<span style='display:none'>mes</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3703,6 +3827,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>loff_t len</td>
   <td class=xl66 width=134 style='width:101pt'>int advice</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -3714,6 +3839,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3727,6 +3853,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3740,6 +3867,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long maxnode</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long addr</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned long flags</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3753,6 +3881,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long maxnode</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3764,10 +3893,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=139 style='width:104pt'>const char __user *name</td>
   <td class=xl66 width=158 style='width:119pt'>int oflag</td>
   <td class=xl66 width=145 style='width:109pt'>mode_t mode</td>
-  <td class=xl67 width=134 style='width:101pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/mqueue.h?v=2.6.35#L25"
-  target="_blank">struct mq_attr __user *attr</a></td>
+  <td>struct mq_attr __user <span style='display:none'>*attr</span></td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3781,9 +3909,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=58 style='height:43.2pt'>
-  <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
+ <tr height=38 style='height:28.8pt'>
+  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
   width:22pt'>279</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/mq_timedsend.2.html"
@@ -3793,12 +3922,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=158 style='width:119pt'>const char __user *msg_ptr</td>
   <td class=xl66 width=145 style='width:109pt'>size_t msg_len</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned int msg_prio</td>
-  <td class=xl67 width=126 style='width:94pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">const struct timespec __user *abs_timeout</a></td>
+  <td colspan=3 style='mso-ignore:colspan'>const struct timespec __user
+  *abs_timeout</td>
  </tr>
- <tr height=58 style='height:43.2pt'>
-  <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
+ <tr height=38 style='height:28.8pt'>
+  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
   width:22pt'>280</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/mq_timedreceive.2.html"
@@ -3808,9 +3936,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=158 style='width:119pt'>char __user *msg_ptr</td>
   <td class=xl66 width=145 style='width:109pt'>size_t msg_len</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned int __user *msg_prio</td>
-  <td class=xl67 width=126 style='width:94pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">const struct timespec __user *abs_timeout</a></td>
+  <td colspan=3 style='mso-ignore:colspan'>const struct timespec __user
+  *abs_timeout</td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3820,12 +3947,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_mq_notify</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x119</td>
   <td class=xl66 width=139 style='width:104pt'>mqd_t mqdes</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/asm-generic/siginfo.h?v=2.6.35#L259"
-  target="_blank">const struct sigevent __user *notification</a></td>
+  <td>const struct sigevent __use<span style='display:none'>r *notification</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3835,14 +3961,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_mq_getsetattr</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x11a</td>
   <td class=xl66 width=139 style='width:104pt'>mqd_t mqdes</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/mqueue.h?v=2.6.35#L25"
-  target="_blank">const struct mq_attr __user *mqstat</a></td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/mqueue.h?v=2.6.35#L25"
-  target="_blank">struct mq_attr __user *omqstat</a></td>
+  <td>const struct mq_attr __use<span style='display:none'>r *mqstat</span></td>
+  <td>struct mq_attr __user *<span style='display:none'>omqstat</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3853,14 +3976,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x11b</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned long entry</td>
   <td class=xl66 width=158 style='width:119pt'>unsigned long nr_segments</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/kexec.h?v=2.6.35#L61"
-  target="_blank">struct kexec_segment __user *segments</a></td>
+  <td>struct kexec_segment _<span style='display:none'>_user *segments</span></td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long flags</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>284</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/waitid.2.html"
@@ -3868,13 +3990,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x11c</td>
   <td class=xl66 width=139 style='width:104pt'>int which</td>
   <td class=xl66 width=158 style='width:119pt'>pid_t pid</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/arch/ia64/include/asm/siginfo.h?v=2.6.35#L19"
-  target="_blank">struct siginfo __user *infop</a></td>
+  <td>struct siginfo __user *inf<span style='display:none'>op</span></td>
   <td class=xl66 width=134 style='width:101pt'>int options</td>
-  <td class=xl67 width=126 style='width:94pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/resource.h?v=2.6.35#L22"
-  target="_blank">struct rusage __user *ru</a></td>
+  <td colspan=2 style='mso-ignore:colspan'>struct rusage __user *ru</td>
+  <td></td>
  </tr>
  <tr height=58 style='height:43.2pt'>
   <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
@@ -3886,6 +4005,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3899,6 +4019,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>const void __user *_payload</td>
   <td class=xl66 width=134 style='width:101pt'>size_t plen</td>
   <td class=xl66 width=126 style='width:94pt'>key_serial_t destringid</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3912,6 +4033,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>const char __user *_callout_info</td>
   <td class=xl66 width=134 style='width:101pt'>key_serial_t destringid</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -3925,6 +4047,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long arg3</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long arg4</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned long arg5</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3938,6 +4061,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int ioprio</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3951,6 +4075,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3964,6 +4089,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3977,6 +4103,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>u32 mask</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -3990,6 +4117,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4003,6 +4131,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>const unsigned long __user *from</td>
   <td class=xl66 width=134 style='width:101pt'>const unsigned long __user *to</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4016,6 +4145,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int flags</td>
   <td class=xl66 width=134 style='width:101pt'>int mode</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4029,6 +4159,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int mode</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4042,6 +4173,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int mode</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned dev</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4055,6 +4187,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>uid_t user</td>
   <td class=xl66 width=134 style='width:101pt'>gid_t group</td>
   <td class=xl66 width=126 style='width:94pt'>int flag</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4065,11 +4198,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x12b</td>
   <td class=xl66 width=139 style='width:104pt'>int dfd</td>
   <td class=xl66 width=158 style='width:119pt'>char __user *filename</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L20"
-  target="_blank">struct timeval __user *utimes</a></td>
+  <td>struct timeval __user *u<span style='display:none'>times</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4080,11 +4212,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x12c</td>
   <td class=xl66 width=139 style='width:104pt'>int dfd</td>
   <td class=xl66 width=158 style='width:119pt'>char __user *filename</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/arch/alpha/include/asm/stat.h?v=2.6.35#L25"
-  target="_blank">struct stat64 __user *statbuf</a></td>
+  <td>struct stat64 __user *sta<span style='display:none'>tbuf</span></td>
   <td class=xl66 width=134 style='width:101pt'>int flag</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4098,6 +4229,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int flag</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4111,6 +4243,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int newdfd</td>
   <td class=xl66 width=134 style='width:101pt'>const char __user * newname</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4124,6 +4257,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int newdfd</td>
   <td class=xl66 width=134 style='width:101pt'>const char __user *newname</td>
   <td class=xl66 width=126 style='width:94pt'>int flags</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4137,6 +4271,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>const char __user * newname</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4150,6 +4285,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>char __user *buf</td>
   <td class=xl66 width=134 style='width:101pt'>int bufsiz</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4163,6 +4299,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>mode_t mode</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4176,6 +4313,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int mode</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -4189,6 +4327,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4197,15 +4336,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/ppoll.2.html"
   target="_blank">sys_ppoll</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x135</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/asm-generic/poll.h?v=2.6.35#L31"
-  target="_blank">struct pollfd __user *ufds</a></td>
+  <td>struct pollfd __user *uf<span style='display:none'>ds</span></td>
   <td class=xl66 width=158 style='width:119pt'>unsigned int nfds</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *tsp</a></td>
+  <td>struct timespec __user *<span style='display:none'>tsp</span></td>
   <td class=xl66 width=134 style='width:101pt'>const sigset_t __user *sigmask</td>
   <td class=xl66 width=126 style='width:94pt'>size_t sigsetsize</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4219,36 +4355,36 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=58 style='height:43.2pt'>
-  <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
+ <tr height=38 style='height:28.8pt'>
+  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
   width:22pt'>311</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/set_robust_list.2.html"
   target="_blank">sys_set_robust_list</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x137</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/futex.h?v=2.6.35#L69"
-  target="_blank">struct robust_list_head __user *head</a></td>
+  <td>struct robust_list_head <span style='display:none'>__user *head</span></td>
   <td class=xl66 width=158 style='width:119pt'>size_t len</td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=58 style='height:43.2pt'>
-  <td height=58 class=xl66 align=right width=29 style='height:43.2pt;
+ <tr height=38 style='height:28.8pt'>
+  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
   width:22pt'>312</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/get_robust_list.2.html"
   target="_blank">sys_get_robust_list</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x138</td>
   <td class=xl66 width=139 style='width:104pt'>int pid</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/futex.h?v=2.6.35#L69"
-  target="_blank">struct robust_list_head __user * __user *head_ptr</a></td>
+  <td>struct robust_list_head __<span style='display:none'>user * __user
+  *head_ptr</span></td>
   <td class=xl66 width=145 style='width:109pt'>size_t __user *len_ptr</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -4262,6 +4398,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4275,6 +4412,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>loff_t nbytes</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned int flags</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -4288,6 +4426,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t len</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned int flags</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4301,6 +4440,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long nr_segs</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned int flags</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4314,9 +4454,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
- <tr height=38 style='height:28.8pt'>
-  <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
   width:22pt'>318</td>
   <td class=xl67 width=83 style='width:62pt'><a
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/getcpu.2.html"
@@ -4324,11 +4465,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x13e</td>
   <td class=xl66 width=139 style='width:104pt'>unsigned __user *cpu</td>
   <td class=xl66 width=158 style='width:119pt'>unsigned __user *node</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/getcpu.h?v=2.6.35#L14"
-  target="_blank">struct getcpu_cache __user *cache</a></td>
+  <td>struct getcpu_cache __u<span style='display:none'>ser *cache</span></td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4342,6 +4482,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4352,11 +4493,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x140</td>
   <td class=xl66 width=139 style='width:104pt'>int dfd</td>
   <td class=xl66 width=158 style='width:119pt'>char __user *filename</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *utimes</a></td>
+  <td>struct timespec __user *<span style='display:none'>utimes</span></td>
   <td class=xl66 width=134 style='width:101pt'>int flags</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4370,6 +4510,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t sizemask</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4383,6 +4524,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -4396,6 +4538,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4409,6 +4552,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>loff_t offset</td>
   <td class=xl66 width=134 style='width:101pt'>loff_t len</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4419,13 +4563,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=42 style='width:32pt'>0x145</td>
   <td class=xl66 width=139 style='width:104pt'>int ufd</td>
   <td class=xl66 width=158 style='width:119pt'>int flags</td>
-  <td class=xl67 width=145 style='width:109pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L258"
-  target="_blank">const struct itimerspec __user *utmr</a></td>
-  <td class=xl67 width=134 style='width:101pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L258"
-  target="_blank">struct itimerspec __user *otmr</a></td>
+  <td>const struct itimerspec _<span style='display:none'>_user *utmr</span></td>
+  <td>struct itimerspec __us<span style='display:none'>er *otmr</span></td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4435,12 +4576,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_timerfd_gettime</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x146</td>
   <td class=xl66 width=139 style='width:104pt'>int ufd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/time.h?v=2.6.35#L258"
-  target="_blank">struct itimerspec __user *otmr</a></td>
+  <td>struct itimerspec __user *<span style='display:none'>otmr</span></td>
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4454,6 +4594,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>size_t sizemask</td>
   <td class=xl66 width=134 style='width:101pt'>int flags</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4467,6 +4608,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4480,6 +4622,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -4493,6 +4636,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int flags</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=19 style='height:14.4pt'>
   <td height=19 class=xl66 align=right width=29 style='height:14.4pt;
@@ -4506,6 +4650,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4519,6 +4664,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>-</td>
   <td class=xl66 width=134 style='width:101pt'>-</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4532,6 +4678,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long vlen</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long pos_l</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned long pos_h</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4545,6 +4692,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>unsigned long vlen</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned long pos_l</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned long pos_h</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4558,6 +4706,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td class=xl66 width=145 style='width:109pt'>int sig</td>
   <td class=xl66 width=134 style='width:101pt'>siginfo_t __user *uinfo</td>
   <td class=xl66 width=126 style='width:94pt'>-</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4566,13 +4715,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   href="http://www.kernel.org/doc/man-pages/online/pages/man2/perf_event_open.2.html"
   target="_blank">sys_perf_event_open</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x150</td>
-  <td class=xl67 width=139 style='width:104pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/perf_event.h?v=2.6.35#L166"
-  target="_blank">struct perf_event_attr __user *attr_uptr</a></td>
+  <td>struct perf_event_attr <span style='display:none'>__user *attr_uptr</span></td>
   <td class=xl66 width=158 style='width:119pt'>pid_t pid</td>
   <td class=xl66 width=145 style='width:109pt'>int cpu</td>
   <td class=xl66 width=134 style='width:101pt'>int group_fd</td>
   <td class=xl66 width=126 style='width:94pt'>unsigned long flags</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=38 style='height:28.8pt'>
   <td height=38 class=xl66 align=right width=29 style='height:28.8pt;
@@ -4582,14 +4730,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
   target="_blank">sys_recvmmsg</a></td>
   <td class=xl66 width=42 style='width:32pt'>0x151</td>
   <td class=xl66 width=139 style='width:104pt'>int fd</td>
-  <td class=xl67 width=158 style='width:119pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/socket.h?v=2.6.35#L72"
-  target="_blank">struct mmsghdr __user *msg</a></td>
+  <td>struct mmsghdr __user *m<span style='display:none'>sg</span></td>
   <td class=xl66 width=145 style='width:109pt'>unsigned int vlen</td>
   <td class=xl66 width=134 style='width:101pt'>unsigned flags</td>
-  <td class=xl67 width=126 style='width:94pt'><a
-  href="http://lxr.free-electrons.com/source/include/linux/coda.h?v=2.6.35#L116"
-  target="_blank">struct timespec __user *timeout</a></td>
+  <td colspan=2 style='mso-ignore:colspan'>struct timespec __user *timeout</td>
+  <td></td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
@@ -4601,6 +4746,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <td width=145 style='width:109pt'></td>
   <td width=134 style='width:101pt'></td>
   <td width=126 style='width:94pt'></td>
+  <td width=83 style='width:62pt'></td>
+  <td width=83 style='width:62pt'></td>
  </tr>
  <![endif]>
 </table>

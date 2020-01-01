@@ -17,18 +17,18 @@ global  _start
  
 _start:
  
-    mov     ecx, 0777           ; Create file from lesson 22
+    mov     ecx, 0777
     mov     ebx, filename
     mov     eax, 8
     int     80h
  
-    mov     edx, 12             ; Write contents to file from lesson 23
+    mov     edx, 12
     mov     ecx, contents
     mov     ebx, eax
     mov     eax, 4
     int     80h
  
-    mov     ecx, 0              ; Open file from lesson 24
+    mov     ecx, 0
     mov     ebx, filename
     mov     eax, 5
     int     80h

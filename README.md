@@ -4776,6 +4776,4 @@ The x86-64 CPUs have a concept called **Privilege Levels**.
 4. **Ring 0** can execute any system instruction and is given full trust.
 5. **System Calls** allow us to perform a privileged instruction in **Kernel Mode (Ring 0)** and then switch back to **User Mode (Ring 3)**.
 
-In order for a user program to perform some privileged operation, it must cause a privilege level change (from **Ring 3** to **Ring 0**) so that the kernel can execute.
-
-![Privilege_Levels System Calls Linux Assembly NASM ASM](Images/privilege_levels.png)
+![Privilege_Levels System Calls Linux Assembly NASM ASM](Images/privilege_levels_linux.png)

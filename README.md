@@ -1,5 +1,5 @@
 # 🐧 NASM Assembly Linux Notes 🐧
-🐧 Assembly with Linux (Notes, Syscalls) 🐧
+🐧 Assembly with Linux (Notes, Syscalls, Kernel Mode (Ring 0) & User Mode (Ring 3)) 🐧
 
 ## 🐧 System Calls Linux (Syscalls) 🐧
 
@@ -4766,14 +4766,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
 </html>
 
-## 🐧 Privilege Levels 🐧
+## 🐧 Privilege Levels (Kernel Mode (Ring 0) & User Mode (Ring 3)) 🐧
 
 The x86-64 CPUs have a concept called **Privilege Levels**.
+Linux only uses **Ring 0** and **3** for **Kernel Mode (Ring 0)** and **User Mode (Ring 3)**. Thus, all user mode processes, running when the system is in any run level execute in **Ring 3**, until they make a **System Call** into kernel code, which transitions the cpu to **Ring 0**.
 
-1. **Privilege levels** are a means of access control. The current **privilege level** determines which CPU instructions and IO may be performed.
-2. The **kernel** runs at the most **privileged level**, called **Ring 0**. **User programs** run at **Ring 3**.
-3. Linux only uses **Ring 0** and **3** for **Kernel Mode (Ring 0)** and **User Mode (Ring 3)** code respectively. Thus, all user mode processes, running when the system is in any run level execute in **Ring 3**, until they make a **System Call** into kernel code, which transitions the cpu to **Ring 0**.
-4. **Ring 0** can execute any system instruction and is given full trust.
-5. **System Calls** allow us to perform a privileged instruction in **Kernel Mode (Ring 0)** and then switch back to **User Mode (Ring 3)**.
+1. The **Kernel** runs at the most **privileged level**, called **Ring 0**. **User programs** run at **Ring 3**.
+2. **Ring 0** can execute any system instruction and is given full trust.
+3. **System Calls** allow us to perform a privileged instruction in **Kernel Mode (Ring 0)** and then switch back to **User Mode (Ring 3)**.
 
 ![Privilege_Levels System Calls Linux Assembly NASM ASM](Images/privilege_levels_linux.png)

@@ -4765,3 +4765,20 @@ xmlns="http://www.w3.org/TR/REC-html40">
 </body>
 
 </html>
+
+## 🐧 Privilege Levels 🐧
+
+The x86-64 CPUs have a concept called **Privilege Levels**.
+
+1. **Privilege levels** are a means of access control. The current **privilege level** determines which CPU instructions and IO may be performed.
+2. The **kernel** runs at the most **privileged level**, called **Ring 0**. **User programs** run at a lesser level, typically **Ring 3**.
+3. **Ring 0** can execute any system instruction and is given full trust.
+4. **System Calls** allow us to perform a privileged instruction in **Kernel Mode (Ring 0)** and then switch back to **User Mode (mostly Ring 3)**.
+
+In order for a user program to perform some privileged operation, it must cause a privilege level change (from **Ring 3** to **Ring 0**) so that the kernel can execute.
+
+There are several ways to cause a privilege level change and trigger the kernel to perform some action.
+
+A common way to cause the kernel to execute are **interrupts**.
+
+![Privilege_Levels System Calls Linux Assembly NASM ASM](Images/privilege_levels.png)

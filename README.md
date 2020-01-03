@@ -11,6 +11,8 @@ When you run a program which calls **open, fork, read, write** (and many others)
 
 **System Calls** are how a program enters the kernel to perform some task. Programs use **System Calls** to perform a variety of operations such as: **creating processes, doing network and file IO**, and much more.
 
+With **System Calls**, we can perform a privileged instruction in **Kernel Mode (Ring 0)**.
+
 ## 📖 System Call Table (Syscall Table) 📖
 
 <html xmlns:v="urn:schemas-microsoft-com:vml"
@@ -4773,6 +4775,6 @@ The x86-64 CPUs have a concept called **Privilege Levels**.</br>
 
 1. The **Kernel** runs at the most **privileged level**, called **Ring 0**. **User programs** run at **Ring 3**.
 2. **Ring 0** can execute any system instruction and is given full trust.
-3. **System Calls** allow us to perform a privileged instruction in **Kernel Mode (Ring 0)** and then switch back to **User Mode (Ring 3)**.
+3. **System Calls** allow us to perform a privileged instruction in **Kernel Mode (Ring 0)**.
 
 ![Privilege_Levels System Calls Linux Assembly NASM ASM](Images/privilege_levels_linux.png)

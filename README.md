@@ -11,6 +11,8 @@ When you run a program which calls **open, fork, read, write** (and many others)
 
 **System Calls** are how a program enters the kernel to perform some task. Programs use **System Calls** to perform a variety of operations such as: **creating processes, doing network and file IO**, and much more.
 
+## 📖 System Call Table (Syscall Table) 📖
+
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:x="urn:schemas-microsoft-com:office:excel"

@@ -4775,6 +4775,6 @@ The x86-64 CPUs have a concept called **Privilege Levels**.</br>
 
 1. The **Kernel** runs at the most **privileged level**, called **Ring 0**. **User programs** run at **Ring 3**.
 2. **Ring 0** can execute any system instruction and is given full trust.
-3. To enter **Kernel Mode (Ring 0)**, you must perform a **System Call**, and by its nature, the system controls where you go, because for the call you simply give an index to the CPU, and the CPU looks inside a table to know what to call.
+3. To enter **Kernel Mode (Ring 0)**, you must perform a **System Call**. (Another Way to use **Kernel Mode (Ring 0)** is by writing drivers in C)
 
 ![Privilege_Levels System Calls Linux Assembly NASM ASM](Images/privilege_levels_linux.png)

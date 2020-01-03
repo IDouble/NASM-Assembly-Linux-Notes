@@ -5,6 +5,12 @@
 
 ![System Calls Linux Assembly NASM ASM](Images/systemcalls_linux_kernel.png)
 
+### ❓ What is a system call? ❓
+
+When you run a program which calls **open, fork, read, write** (and many others) you are making a **system call**.
+
+**System calls** are how a program enters the kernel to perform some task. Programs use system calls to perform a variety of operations such as: **creating processes, doing network and file IO**, and much more.
+
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:x="urn:schemas-microsoft-com:office:excel"

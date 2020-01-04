@@ -1,4 +1,4 @@
-; Hello World Program (Passing arguments from the command line)
+; Hello World Program (Passing arguments (args) from the command line)
 ; Compile with: nasm -f elf helloworld-args.asm
 ; Link with (64 bit systems require elf_i386 option): ld -m elf_i386 helloworld-args.o -o helloworld-args
 ; Run with: ./helloworld-args

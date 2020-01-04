@@ -1,4 +1,4 @@
-; Hello World Program - asmtutor.com
+; Hello World Program
 ; Compile with: nasm -f elf helloworld.asm
 ; Link with (64 bit systems require elf_i386 option): ld -m elf_i386 helloworld.o -o helloworld
 ; Run with: ./helloworld

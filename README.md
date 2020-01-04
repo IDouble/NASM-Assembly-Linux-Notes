@@ -4772,7 +4772,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 ## 🔧 Simple System Call Example calling SYS_WRITE (kernel opcode 4) 🔧
 At Line **17**: **mov     eax, 4      ; invoke SYS_WRITE (kernel opcode 4)**
 ```
-; Hello World Program - asmtutor.com
+; Hello World Program
 ; Compile with: nasm -f elf helloworld.asm
 ; Link with (64 bit systems require elf_i386 option): ld -m elf_i386 helloworld.o -o helloworld
 ; Run with: ./helloworld

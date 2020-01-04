@@ -1,5 +1,5 @@
 # 🐧 NASM Assembly Linux Notes 🐧
-🐧 Assembly with **Linux** (Notes, **Syscalls**, **Kernel Mode (Ring 0)** & **User Mode (Ring 3)**) 🐧
+🐧 Assembly with **Linux** (Notes, **Syscalls**, Protection Rings) 🐧
 
 ## 🐧 System Calls Linux (Syscalls) 🐧
 
@@ -4791,9 +4791,8 @@ _start:
     mov     eax, 4      ; invoke SYS_WRITE (kernel opcode 4)
     int     80h
 ```
-## 🐧 Privilege Levels (Kernel Mode (Ring 0) & User Mode (Ring 3)) 🐧
-
-The x86-64 CPUs have a concept called **Privilege Levels**.</br>
+## 🐧 Protection Rings / Privilege Levels (Kernel Mode (Ring 0) & User Mode (Ring 3)) 🐧
+The x86-64 CPUs have a concept called **Privilege Levels**. (also often called **Protection Rings**)</br>
 **Linux** only uses **Ring 0** and **3** for **Kernel Mode (Ring 0)** and **User Mode (Ring 3)**. Thus, all user mode processes, running when the system is in any run level execute in **Ring 3**, until they make a **System Call** into kernel code, which transitions the cpu to **Ring 0**.
 
 1. The **Kernel** runs at the most **privileged level**, called **Ring 0**. **User programs** run at **Ring 3**.

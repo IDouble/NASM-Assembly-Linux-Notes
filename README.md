@@ -4791,7 +4791,7 @@ _start:
     mov     eax, 4      ; invoke SYS_WRITE (kernel opcode 4)
     int     80h
 ```
-## 🐧 Protection Rings / Privilege Levels (Kernel Mode (Ring 0) & User Mode (Ring 3)) 🐧
+## 🐧 Protection Rings / Privilege Levels 🐧
 The x86-64 CPUs have a concept called **Privilege Levels**. (also often called **Protection Rings**)</br>
 **Linux** only uses **Ring 0** and **3** for **Kernel Mode (Ring 0)** and **User Mode (Ring 3)**. Thus, all user mode processes, running when the system is in any run level execute in **Ring 3**, until they make a **System Call** into kernel code, which transitions the cpu to **Ring 0**.
 
